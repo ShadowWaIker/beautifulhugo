@@ -21,10 +21,14 @@
   translation: "前一篇"
 - id: nextPost
   translation: "后一篇"
+- id: readTimeStart
+  translation: "预计阅读时间"
 - id: readTime
   translation: "分钟"
+- id: wordsStart
+  translation: "内容共计"
 - id: words
-  translation: "个字"
+  translation: "个字符"
 
 
 # 404 page
@@ -33,7 +37,7 @@
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: '由 <a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> 移植自 <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+  translation: '由 <a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href="https://github.com/ShadowWaIker/beautifulhugo">BH</a> ( Fork From <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> 移植自 <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> )'
 
 # Navigation
 - id: toggleNavigation

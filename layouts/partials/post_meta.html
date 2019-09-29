@@ -6,10 +6,10 @@
     &nbsp;{{ $lastmodstr | i18n "lastModified"  }}
   {{ end }}
   {{ if .Site.Params.readingTime }}
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readTimeStart" }}&nbsp;&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
   {{ end }}
   {{ if .Site.Params.wordCount }}
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" }}
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;{{ i18n "wordsStart" }}&nbsp;&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" }}
   {{ end }}
   {{ if not .Site.Params.hideAuthor }}
     {{ if .Params.author }}
