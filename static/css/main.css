@@ -813,3 +813,29 @@ h4.see-also {
  ul.share li:hover .fab {
   transform: scale(1.4)
 }
+
+
+/* Outdated Info Warning */
+.post-outdated {
+  color: #808080;
+}
+
+.post-outdated .hint {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-left: 4px solid rgb(66, 172, 243);
+  background-color: rgba(239, 245, 255, 0.66);
+  border-color: rgb(66, 172, 243);
+}
+
+.post-outdated .warn {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-left: 4px solid #f9cf63;
+  background-color: #f9f9d37a;
+  border-color: #f9cf63;
+}

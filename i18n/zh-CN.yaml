@@ -22,13 +22,17 @@
 - id: nextPost
   translation: "后一篇"
 - id: readTimeStart
-  translation: "预计阅读时间"
+  translation: "预计阅读"
 - id: readTime
   translation: "分钟"
 - id: wordsStart
-  translation: "内容共计"
+  translation: "内容约"
 - id: words
   translation: "个字符"
+- id: outdatedInfoWarningBefore
+  translation: "【注意】最后更新于 "
+- id: outdatedInfoWarningAfter
+  translation: "，文中内容可能已过时，请谨慎使用。"
 
 
 # 404 page
