@@ -171,7 +171,11 @@ $(function(){
 {{- end -}}
 
 <!-- ribbon.js https://github.com/hustcc/ribbon.js -->
-<script size="90" alpha='0.5' zIndex="-2" src="/js/ribbon.min.js"></script>
+<script>
+  if ( document.body.clientWidth > 768) { // 如果是在手机上打开则不加载背景插件
+    document.write("<script size=\"90\" alpha=\"0.5\" zIndex=\"-2\" src=\"/js/ribbon.min.js\"><\/script>");
+  }
+</script>
 
 <!-- timeago.JS -->
 {{- if and (or .Params.enableOutdatedInfoWarning (and .Site.Params.outdatedInfoWarning.enable (ne .Params.enableOutdatedInfoWarning false))) (or .IsPage .IsHome) }}
